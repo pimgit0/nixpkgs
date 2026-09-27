@@ -25,7 +25,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
   # NOTE: when updating this to a new non-patch version, please also try to
   # update the plugins. Plugins only work if they are compiled for the same
   # major/minor version.
-  version = "0.115.1";
+  version = "0.116.0";
 
   src = fetchFromGitHub {
     owner = "nushell";
